@@ -26,7 +26,7 @@ export default function Story() {
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "Focused on Web3 innovation and incredibly passionate about the blockchain space, James’ goal is moving with velocity at the intersection of the blockchain, finance, technology, and media. He is busy developing, growing, and progressing the frontier of premium on-chain products and experiences. He is a founder, product developer, project manager, and growth driver. Extensive experience across technology, finance, media, and entertainment. James spent his teen years acting on television shows which gave him professional experience interfacing with top-tier Hollywood talent. His acting career lead him to LA where he attended Occidental College and took internships at Atlantic Records and City National Bank."
+                  "SYB Creative acts as an umbrella entity to house all aspects of the project and resides at the intersection of art, business, and technology. Over time we aim to maximize the value of the offering and its consumer impact across creative and cultural verticals at scale. The intent is to build one of the great lasting brands, trusted for a high degree of quality and authenticity, celebrating great artistry while staying relevant in culture beyond any one project. The mission is to design an infusion of business and creative work into the DNA of the company to bridge and the chasm between the industrial and the creative spaces. We are at the core a creative brand. Creativity, the fuel which propels the engine of innovation, is the cornerstone of any great lasting enterprise, equipping it to adapt to an evolving marketplace and consumer demand."
                 }
               </h4>
             </GridItem>
@@ -66,7 +66,7 @@ export default function Story() {
                 )}
               >
                 {
-                  "Following graduation, James joined the William Morris Endeavour Music department, the largest talent agency in the world representing clientele such as Drake, The Weeknd, Bruno Mars, and Calvin Harris. Stepping full time into an entrepreneurial endeavor James took his Media production, growth marketing, and partnership development abilities and founded SYB Creative. Through his agency, they had over 70 successful music releases and sold out esteem venues across Los Angles such as Warwick, the Sofitel, and the troubadour. SYB Creative ventured into virtual media, developing a prototype for a virtual concert app called Agora."
+                  "SYB is an expression of values and thematic concepts across music, visuals, performance, live experience, fashion and auxiliary products that relate back to music and the listener, which we value at the center of all activities. The aim is to create an incredible, fully realized music experience that unlocks emotion for an audience at a visceral level. I put everything I have into making every song amazing, every video engaging and exploring emotionally and intellectually impactful concepts that move people and strengthen identification and connection to the project. The approach is to develop trust with consistent value delivery and cohesive brand expression while pushing creative boundaries at the intersection of art and technology."
                 }
               </h4>
             </GridItem>
@@ -83,7 +83,7 @@ export default function Story() {
             <GridItem xs={12} sm={8} md={6}>
               <h4 className={classes.description}>
                 {
-                  "This expertise lead James to join LightTwist as Founding Creative Director, the YC company focused on innovation in providing access to real-time 3D game engines to all creators. James’ original NFT project DAC, is a direct materialization of his efforts to bring premium entertainment properties to the blockchain. Financially endowing consumers to take ownership of stakes in their favorite media is the driving goal. Conceptually similar to NBA Top Shop, DAC aims to mint collections of concert highlights. James implemented the minting solution, virtually produced and edited the trailer, developed the landing page, managed content strategy, and 3D design teams, and established and executed the growth and go-to-market strategy."
+                  "The mission is to design an infusion of business and creative work into the DNA of the company to bridge and the chasm between the industrial and the creative spaces. We are at the core a creative brand. Creativity, the fuel which propels the engine of innovation, is the cornerstone of any great lasting enterprise, equipping it to adapt to an evolving marketplace and consumer demand. Our culture of creativity focuses around one question: “How do we create and deliver value more effectively to our audience?” I am of the belief that art and capitalism don’t need to be mutually exclusive, they can complement and empower each other. Apple, the world’s most valuable company has design, artist inspiration, and differentiated thinking baked into their products and foundational values. The art of the Renaissance was catalyzed and flourished by way of the banking system implemented by the Medici."
                 }
               </h4>
             </GridItem>

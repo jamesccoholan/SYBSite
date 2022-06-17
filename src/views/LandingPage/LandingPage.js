@@ -58,9 +58,9 @@ export default function LandingPage(props) {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>SYB Creative</h1>
                 <h2 className={classes.subtitle}>
-                  NFT Consulting and Production
+                  Los Angeles Based Full Service Creative Agency
                 </h2>
-                <h4>NFTs, Media, Music</h4>
+                <h4>Video, Music, NFT</h4>
 
                 <br />
                 <Button
@@ -72,7 +72,7 @@ export default function LandingPage(props) {
                   className={classes.titleButton}
                 >
                   {/* <i className="fas fa-play" /> */}
-                  Spotify
+                  Article
                 </Button>
                 <Button
                   color="twitter"
@@ -82,7 +82,7 @@ export default function LandingPage(props) {
                   rel="noopener noreferrer"
                   className={classes.titleButton}
                 >
-                  Instagram
+                  Video Samples
                 </Button>
                 <Button
                   color="twitter"

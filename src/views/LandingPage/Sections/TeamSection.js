@@ -15,8 +15,8 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 
 const team = [
   {
-    name: "DAC",
-    job: "10K Music NFT Project",
+    name: "NFT",
+    job: "High End Production",
     img: "https://ik.imagekit.io/mbhxghyf1m2/DAC_117_7HAFJPCDx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647893991321",
     link: (
       <a
@@ -36,6 +36,15 @@ const team = [
         OpenSea
       </a>
     ),
+    link4: (
+      <a
+        href="https://testnets.opensea.io/collection/dbb"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Diamond Bulls
+      </a>
+    ),
     link3: (
       <a
         href="https://www.youtube.com/watch?v=ezRnFj08KlI"
@@ -43,11 +52,6 @@ const team = [
         target="_blank"
       >
         Trailer
-      </a>
-    ),
-    link4: (
-      <a href="https://dacmint.netlify.app/" rel="noreferrer" target="_blank">
-        Minting Dapp
       </a>
     ),
     link5: (
@@ -79,8 +83,8 @@ const team = [
     ),
   },
   {
-    name: "Agora",
-    job: "Virtual Concerts - Unreal Engine",
+    name: "Virtual Production",
+    job: "High End Unreal Engine",
     img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-05-16_at_9.45.51_AM_FE_LMIImJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652719567473",
     link: (
       <a
@@ -115,7 +119,98 @@ const team = [
       </a>
     ),
   },
-
+  {
+    name: "Video",
+    job: "High End Video Production",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/RBRIGHT_CUFZWa5HN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647893971111",
+    link: (
+      <a
+        href="https://testnets.opensea.io/collection/dbb"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Instagram
+      </a>
+    ),
+    link2: (
+      <a
+        href="https://testnets.opensea.io/collection/dbb"
+        rel="noreferrer"
+        target="_blank"
+      >
+        YouTube
+      </a>
+    ),
+    link3: (
+      <a
+        href="https://rinkeby.etherscan.io/address/0xc2746B9960120d7976E16159b5f890eeC1253ABF#code"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Tik Tok
+      </a>
+    ),
+  },
+  {
+    name: "Music",
+    job: "High End Original Music Production",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-06-17_at_11.28.18_AM_RMDiyBGKR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655490513622",
+    link: (
+      <a
+        href="https://www.discoastronautclub.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Spotify
+      </a>
+    ),
+    link2: (
+      <a
+        href="https://testnets.opensea.io/collection/daclarge"
+        rel="noreferrer"
+        target="_blank"
+      >
+        YouTube
+      </a>
+    ),
+  },
+  {
+    name: "Web Development",
+    job: "Make a landing page",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-05-16_at_9.45.51_AM_FE_LMIImJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652719567473",
+    link: (
+      <a
+        href="https://www.experienceagora.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Website
+      </a>
+    ),
+    link2: (
+      <a
+        href="https://www.linkedin.com/pulse/agora-white-paper-james-coholan/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Whitepaper
+      </a>
+    ),
+    link3: (
+      <a
+        href="https://www.youtube.com/watch?v=QeVeqU00p7M"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Trailer
+      </a>
+    ),
+    link4: (
+      <a href="https://youtu.be/Xak8aGTgMTo" rel="noreferrer" target="_blank">
+        Demo
+      </a>
+    ),
+  },
   {
     name: "Diamond Bull Brigade",
     job: "Photo-Real, Animated NFTs",
@@ -153,8 +248,8 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Videos</h2>
-      <h4 className={classes.smallTitle}>Some tunes from SYB</h4>
+      <h2 className={classes.title}>Services</h2>
+      <h4 className={classes.smallTitle}>End to End Production</h4>
       <div>
         <GridContainer>
           {team.map(function (member) {
