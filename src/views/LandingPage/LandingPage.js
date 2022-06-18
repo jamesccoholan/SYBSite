@@ -35,6 +35,7 @@ const useStyles = makeStyles(styles);
 
 export default function LandingPage(props) {
   const classes = useStyles();
+
   const { ...rest } = props;
   return (
     <div>
@@ -58,13 +59,11 @@ export default function LandingPage(props) {
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>SYB Creative</h1>
+
                 <h2 className={classes.subtitle}>
                   Full Service Creative Agency - Los Angeles
                 </h2>
                 <h4>Video, Music, & NFT Production</h4>
-                {/* <a className={classes.subtitle} href="SYB@SYBCreative.com">
-                  Contact
-                </a> */}
                 <br />
                 <Button
                   color="twitter"
