@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
+import GridItem2 from "components/Grid/GridItem2.js";
 
 import Fade from "react-reveal/Fade";
 
@@ -16,8 +17,8 @@ const useStyles = makeStyles(styles);
 
 const roadmapItems = [
   {
-    phase: "NFT Production",
-    img: "https://ik.imagekit.io/mbhxghyf1m2/6061e9b66445fd43aec03647_Brink_spot-illo02__1__kPyi9XVjm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652717447731",
+    phase: "NFT Design, Generation & Deployment",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/PIIICs31_vTvK3jwMPt.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947198",
     items: [
       {
         title: "End to end 3D art  production ",
@@ -32,8 +33,42 @@ const roadmapItems = [
     ],
   },
   {
-    phase: "NFT Production",
-    img: "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-05-16_at_9.38.47_AM_6vYqYKMcKm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652719148180",
+    phase: "Music Production",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/PIIICs26_RoC8eAkSD.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947580",
+    items: [
+      {
+        title:
+          "Enabling Creators and Brands to Build Seamlessly in the Web3 Era",
+        description:
+          "Build your brand, sell your work, and grow your community using the power of the blockchain. All on the Minotaur platform.",
+      },
+      {
+        title: "Project Manager",
+        description:
+          "Business sourcing and end-to-end execution on NFT campaigns.",
+      },
+    ],
+  },
+  {
+    phase: "Video Editing",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/PIIICs30_UwQ4unE2I.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947424",
+    items: [
+      {
+        title:
+          "Enabling Creators and Brands to Build Seamlessly in the Web3 Era",
+        description:
+          "Build your brand, sell your work, and grow your community using the power of the blockchain. All on the Minotaur platform.",
+      },
+      {
+        title: "Project Manager",
+        description:
+          "Business sourcing and end-to-end execution on NFT campaigns.",
+      },
+    ],
+  },
+  {
+    phase: "Graphic Design",
+    img: "https://ik.imagekit.io/mbhxghyf1m2/PIIICs23_rFgRbzPL9.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947756",
     items: [
       {
         title:
@@ -55,15 +90,17 @@ export default function WorkSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
+        <GridItem2 xs={0} sm={0} md={0}></GridItem2>
         <GridItem cs={12} sm={12} md={8}>
           <Fade duration={1000} bottom cascade>
             <div>
-              <h1 className={classes.title}>Experience</h1>
+              <h1 className={classes.title}>Expertise</h1>
               <h4 className={classes.description}>
                 {
                   "Blockchain, media, finance, and technology and focused founder, product developer, project manager, and growth driver."
                 }
                 {/* <HeaderLinks /> */}
+
                 <h1 />
               </h4>
             </div>

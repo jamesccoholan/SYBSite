@@ -38,37 +38,70 @@ export default function Gallery() {
               </GridItem>
             </Card>
           </GridItem>
-          {/* <h3>JamesCoholan@Gmail.com</h3> */}
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              {/* <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/9_nn8PuGDK0?ik-sdk-version=javascript-1.4.3&updatedAt=1643834347824"
+                    "https://ik.imagekit.io/mbhxghyf1m2/PIIICs31_vTvK3jwMPt.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947198"
                   }
-                  alt="Disconaut Suit"
+                  alt="Image"
                   className={imageClasses}
                 />
-              </GridItem> */}
-              <h3></h3>
-              <br />
-              <h3></h3>
-              <br />
-              <h3>SYB@SYBCreative.com</h3>
-              <a href="SYB@SYBCreative.com">Contact</a>
+              </GridItem>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              {/* <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/mbhxghyf1m2/PIIICs30_UwQ4unE2I.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947424"
+                  }
+                  alt="Image"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/mbhxghyf1m2/PIIICs22_1UUf7gL17H.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947763"
+                  }
+                  alt="Image"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
                     "https://ik.imagekit.io/5ierklngtbt/img/NewSuits/14_c2NJaspPcQM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643834233162"
                   }
+                  alt="Image"
+                  className={imageClasses}
+                />
+              </GridItem>
+            </Card>
+          </GridItem>
+
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
+                <img
+                  src={
+                    "https://ik.imagekit.io/mbhxghyf1m2/PIIICs33_O-cpw_kve.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655532947611"
+                  }
                   alt="Disconaut Suit"
                   className={imageClasses}
                 />
-              </GridItem> */}
+              </GridItem>
             </Card>
           </GridItem>
         </GridContainer>

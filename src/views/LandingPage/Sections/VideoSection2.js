@@ -14,7 +14,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/vide
 
 const useStyles = makeStyles(styles);
 
-export default function VideoSection() {
+export default function VideoSection2() {
   const classes = useStyles();
   return (
     <div className={classes.section}>

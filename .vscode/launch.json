@@ -1,5 +1,19 @@
 {
-    "configurations": [
+    "configurations": [{
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "SYB_SITE:src/views/LandingPage/Sections/Gallery.Gallery (nodejs12.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/",
+                "lambdaHandler": "src/views/LandingPage/Sections/Gallery.Gallery"
+            },
+            "lambda": {
+                "runtime": "nodejs12.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
         {
             "type": "aws-sam",
             "request": "direct-invoke",

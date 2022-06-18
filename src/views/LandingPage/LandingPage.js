@@ -12,7 +12,7 @@ import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
-// import HeaderLinks from "components/Header/HeaderLinks.js";
+import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import Fade from "react-reveal/Fade";
 
@@ -21,6 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 // import ProductSection from "./Sections/ProductSection.js";
 import VideoSection from "./Sections/VideoSection.js";
+import VideoSection2 from "./Sections/VideoSection2.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/RoadmapSection.js";
 import Gallery from "./Sections/Gallery.js";
@@ -41,7 +42,7 @@ export default function LandingPage(props) {
         color="transparent"
         routes={dashboardRoutes}
         // brand="James Coholan"
-        // rightLinks={<HeaderLinks />}
+        rightLinks={<HeaderLinks />}
         absolute
         {...rest}
       />
@@ -58,24 +59,13 @@ export default function LandingPage(props) {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>SYB Creative</h1>
                 <h2 className={classes.subtitle}>
-                  Full Service Creative Agency Based in Los Angeles
+                  Full Service Creative Agency - Los Angeles
                 </h2>
-                <h4>Video, Music, NFT</h4>
+                <h4>Video, Music, & NFT Production</h4>
                 {/* <a className={classes.subtitle} href="SYB@SYBCreative.com">
                   Contact
                 </a> */}
                 <br />
-                <Button
-                  color="twitter"
-                  size="lg"
-                  href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEpzV3lOYVRiMWlsaEFpSzNBQkFBckc3MFVpQXxBQ3Jtc0tsTzdSdXNDU1VyNjlDYXRwLUQ0Y1RzbEZndFhFd1A4cDFnSEh6b0FYam4tVVBfVmdod1R5dk92WVdyemRQczhoT1FrNXlxZDB3V2FGOE1KRnhFOXY2Q3JSVXBkX0UyS1podmlKZGZ1S3hxRnVxVExxNA&q=https%3A%2F%2Fopen.spotify.com%2Fartist%2F7lQsPgl572B3J9tARp1N66&v=KrXQL-BSVnU"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={classes.titleButton}
-                >
-                  {/* <i className="fas fa-play" /> */}
-                  Article
-                </Button>
                 <Button
                   color="twitter"
                   size="lg"
@@ -84,17 +74,38 @@ export default function LandingPage(props) {
                   rel="noopener noreferrer"
                   className={classes.titleButton}
                 >
-                  Video Samples
+                  {/* <i className="fas fa-play" /> */}
+                  Instagram
                 </Button>
                 <Button
                   color="twitter"
                   size="lg"
-                  href="https://www.youtube.com/channel/UC0bjvhsexag1eW0GWqjm2DA/videos"
+                  href="https://youtu.be/4wQ-okGvk24"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={classes.titleButton}
                 >
                   YouTube
+                </Button>
+                {/* <Button
+                  color="twitter"
+                  size="lg"
+                  href="https://youtu.be/4wQ-okGvk24"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={classes.titleButton}
+                >
+                  Article
+                </Button> */}
+                <Button
+                  color="twitter"
+                  size="lg"
+                  href="mailto:SYB@SYBCreative.com?subject=Inquiry&body=Hi James, I am writing to inquire about creative services."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={classes.titleButton}
+                >
+                  Inquiries
                 </Button>
                 <h1></h1>
                 {/* <h4>CodeWars Rank</h4>
@@ -123,6 +134,7 @@ export default function LandingPage(props) {
             <TeamSection2 />
           </div>
         </div>
+        <VideoSection2 />
       </div>
       <Footer />
     </div>
