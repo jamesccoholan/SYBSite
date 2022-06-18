@@ -30,7 +30,7 @@ export default function Gallery() {
               <GridItem xs={100} sm={100} md={100} className={classes.itemGrid}>
                 <img
                   src={
-                    "https://ik.imagekit.io/mbhxghyf1m2/Screen_Shot_2022-05-15_at_3.51.29_PM_xdquxBseV4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652655106848"
+                    "https://ik.imagekit.io/mbhxghyf1m2/PIIICs34_qGx-eV07G.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1655508756299"
                   }
                   alt="Image"
                   className={imageClasses}
@@ -54,7 +54,8 @@ export default function Gallery() {
               <br />
               <h3></h3>
               <br />
-              <h3>JamesCoholan@Gmail.com</h3>
+              <h3>SYB@SYBCreative.com</h3>
+              <a href="SYB@SYBCreative.com">Contact</a>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>

@@ -58,10 +58,12 @@ export default function LandingPage(props) {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>SYB Creative</h1>
                 <h2 className={classes.subtitle}>
-                  Los Angeles Based Full Service Creative Agency
+                  Full Service Creative Agency Based in Los Angeles
                 </h2>
                 <h4>Video, Music, NFT</h4>
-
+                {/* <a className={classes.subtitle} href="SYB@SYBCreative.com">
+                  Contact
+                </a> */}
                 <br />
                 <Button
                   color="twitter"
